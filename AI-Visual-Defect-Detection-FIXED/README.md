@@ -1,10 +1,13 @@
-# AI-Powered Visual Defect Detection (Fixed Deployment Version)
+# AI-Powered Visual Defect Detection
 
-This version fixes:
-- Altair compatibility issue
-- Streamlit dependency conflict
-- Auto-creates model.pth if missing
+A lightweight computer vision application built with Streamlit.
 
-## Deploy on Streamlit Cloud
-Main file path:
-app.py
+## Features
+- Upload product image
+- Detects surface irregularities using edge detection
+- Classifies as Defective or Non-Defective
+
+## Tech Used
+- Streamlit
+- OpenCV
+- NumPy
