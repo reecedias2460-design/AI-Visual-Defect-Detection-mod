@@ -1,7 +1,8 @@
 import streamlit as st
 import cv2
 import numpy as np
-from PIL import Image
+from src.predict import predict_image
+
 
 # -------------------------------
 # PAGE CONFIG
